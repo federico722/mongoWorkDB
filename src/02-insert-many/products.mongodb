@@ -1,0 +1,90 @@
+// products.mongodb
+
+use("pet_store")
+
+db.products.drop()
+
+db.products.insertMany([
+    {
+        _id: 1,
+        title: "Hueso para Perros",
+        price: 9000,
+        description: "hueso de cartilago para perro",
+        category: "comestibles",
+        image: "https://th.bing.com/th/id/R.c5ea58ff16bc1cc831ea0e80f960bd33?rik=yAN1NP81WJ61JA&pid=ImgRaw&r=0"
+    },
+    {
+        _id: 2,
+        title: "Correa",
+        price: 5000,
+        description: "Correa para perro linea de remolque 15mm",
+        category: "accesorios para perros",
+        image: "https://th.bing.com/th/id/R.4dc52090d9676b44eb4cc1760eb9c8ed?rik=MktwsO8lea9yzA&riu=http%3a%2f%2fa2.leadongcdn.cn%2fcloud%2fniBooKSRqpimjkmok%2f11.jpg&ehk=l6ROUHEKTyI7rnxjwX7Sv6kmUVPqF0iLcJki59sMJoY%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+        _id: 3,
+        title: "Cama Para Perro ",
+        price: 25000,
+        description: "Cama para perro Extra grande ",
+        category: "accesorios para perros",
+        image: "https://th.bing.com/th/id/R.f2c4d350f51599e567f6c9e866cfdb2d?rik=GEcihmgCOMRdNQ&pid=ImgRaw&r=0"
+    },
+    {
+        _id: 4,
+        title: "Pelota Para Perro ",
+        price: 25000,
+        description: "Pelota macisa de caucho",
+        category: "accesorios para perros",
+        image: "https://shop-cdn-m.mediazs.com/bilder/pelota/chuckit/ultra/ball/para/perros/5/400/64169_pla_chuckit_ultra_ball_m_hs_01_5.jpg"
+    },
+    {
+        _id: 5,
+        title: "Collar para Perro",
+        price: 25000,
+        description: "Collar de cuero de color Marron",
+        category: "accesorios para perros",
+        image: "https://madeheart.com/media/productphoto/718/21609580/_1_78_1034.jpg"
+    },
+    {
+        _id: 6,
+        title: "Galletas para Perro",
+        price: 30000,
+        description: "Galletas para perro sabor a pollo con forma de hueso",
+        category: "comestibles",
+        image: "https://madeheart.com/media/productphoto/718/21609580/_1_78_1034.jpg"
+    },
+    {
+        _id: 7,
+        title: "Palitos Comestibles Para Perro",
+        price: 10000,
+        description: "Palitos comestibles de diferentes colores para perro con sabor a concentrado",
+        category: "comestibles",
+        image: "https://mlstaticquic-a.akamaihd.net/D_NQ_NP_991259-MLU31241695332_062019-O.jpg"
+    },
+    {
+        _id: 8,
+        title: "Palitos Comestibles Para Perro",
+        price: 10000,
+        description: "Palitos comestibles de diferentes colores para perro con sabor a concentrado",
+        category: "comestibles",
+        image: "https://mlstaticquic-a.akamaihd.net/D_NQ_NP_991259-MLU31241695332_062019-O.jpg"
+    },
+    {
+        _id: 9,
+        title: "Casa Para Perros",
+        price: 65000,
+        description: "Casa para perros estilo cabaña a prueba de todo clima",
+        category: "accesorios para perros",
+        image: "https://http2.mlstatic.com/casa-para-perros-estilo-cabana-a-prueba-de-todo-clima-D_NQ_NP_617170-MLM27097633826_032018-F.jpg"
+    },
+    {
+        _id: 10,
+        title: "Plato Para Perros",
+        price: 65000,
+        description: "Plato para perro doble tazon de acero inoxidable",
+        category: "accesorios para perros",
+        image: "https://i.pinimg.com/originals/3b/26/5c/3b265c9131684c4d75397ac3ae5b0f0a.jpg"
+    },
+
+    
+])
