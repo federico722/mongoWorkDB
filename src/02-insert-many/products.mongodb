@@ -31,7 +31,7 @@ db.products.insertMany([
     },
     {
         _id: 4,
-        title: "Pelota Para Perro ",
+        title: "Pelota Para Perro",
         price: 25000,
         description: "Pelota macisa de caucho",
         category: "accesorios para perros",
@@ -47,7 +47,7 @@ db.products.insertMany([
     },
     {
         _id: 6,
-        title: "Galletas para Perro",
+        title: "Galletas",
         price: 30000,
         description: "Galletas para perro sabor a pollo con forma de hueso",
         category: "comestibles",
@@ -55,7 +55,7 @@ db.products.insertMany([
     },
     {
         _id: 7,
-        title: "Palitos Comestibles Para Perro",
+        title: "Palitos Comestibles",
         price: 10000,
         description: "Palitos comestibles de diferentes colores para perro con sabor a concentrado",
         category: "comestibles",
@@ -63,15 +63,15 @@ db.products.insertMany([
     },
     {
         _id: 8,
-        title: "Palitos Comestibles Para Perro",
-        price: 10000,
-        description: "Palitos comestibles de diferentes colores para perro con sabor a concentrado",
+        title: "Croquetas Ringo",
+        price: 124000,
+        description: "Ringo Premium cachorros 15kg",
         category: "comestibles",
-        image: "https://mlstaticquic-a.akamaihd.net/D_NQ_NP_991259-MLU31241695332_062019-O.jpg"
+        image: "https://http2.mlstatic.com/D_NQ_NP_642221-MLU72575307944_112023-V.webp"
     },
     {
         _id: 9,
-        title: "Casa Para Perros",
+        title: "Casa Canina",
         price: 65000,
         description: "Casa para perros estilo cabaña a prueba de todo clima",
         category: "accesorios para perros",
@@ -79,12 +79,90 @@ db.products.insertMany([
     },
     {
         _id: 10,
-        title: "Plato Para Perros",
+        title: "Plato",
         price: 65000,
         description: "Plato para perro doble tazon de acero inoxidable",
         category: "accesorios para perros",
         image: "https://i.pinimg.com/originals/3b/26/5c/3b265c9131684c4d75397ac3ae5b0f0a.jpg"
     },
-
-    
+    {
+        _id: 11,
+        title: "Botella Dispensador",
+        price: 44900,
+        description: "Botella Dispensador De agua multiusos 4 en 1 para perro",
+        category: "accesorios para perros",
+        image: "https://http2.mlstatic.com/D_NQ_NP_855318-MCO51618320828_092022-V.webp"
+    },
+    {
+        _id: 12,
+        title: "Cuerda Para Perros",
+        price: 44900,
+        description: "Cuerda Con nudos",
+        category: "accesorios para perros",
+        image: "https://http2.mlstatic.com/D_NQ_NP_698964-MCO50931637396_072022-V.webp"
+    },
+    {
+        _id: 13,
+        title: "Maquina de peluqueria",
+        price: 78900,
+        description: "Maquina de Peluqueria Canina kit mascotas inalambrica",
+        category: "accesorios para perros",
+        image: "https://http2.mlstatic.com/D_NQ_NP_694561-MCO54983628489_052023-O.webp"
+    },
+    {
+        _id: 14,
+        title: "Hueso Carnaza",
+        price: 37699,
+        description: "Hueso Carnaza Barquillo Relleno Kilo Snack Carnaza Perros",
+        category: "comestibles",
+        image: "https://http2.mlstatic.com/D_NQ_NP_799729-MCO29035612718_122018-O.webp"
+    },
+    {
+        _id: 15,
+        title: "Salsa para perro",
+        price: 8800,
+        description: "Salsa Para Perro Sabor Pollo 375 MI",
+        category: "comestibles",
+        image: "https://http2.mlstatic.com/D_NQ_NP_965602-MCO43345113646_092020-O.webp"
+    },
+    {
+        _id: 16,
+        title: "Arnes Pechera",
+        price: 33853,
+        description: "Arnes Pechera Correa Collar Perro Grandes Mediano pequeño",
+        category: "accesorios para perros",
+        image: "https://http2.mlstatic.com/D_NQ_NP_794289-MCO71286197534_082023-O.webp"
+    },
+    {
+        _id: 17,
+        title: "Saco para Perros",
+        price: 26714,
+        description: "Saco Para Perros Raza Pequeña Ropa para Mascota",
+        category: "accesorios para perros",
+        image: "https://http2.mlstatic.com/D_NQ_NP_968431-MCO72184116526_102023-O.webp"
+    },
+    {
+        _id: 18,
+        title: "Camiza para perros",
+        price: 26714,
+        description: "Camizeta para perros roja",
+        category: "accesorios para perros",
+        image: "https://http2.mlstatic.com/D_NQ_NP_798686-MCO46764178343_072021-O.webp"
+    },
+    {
+        _id: 19,
+        title: "Pañoleta cuadro",
+        price: 26714,
+        description: "Pañoleta Cuadro Roja/azul para perro,Mansso",
+        category: "accesorios para perros",
+        image: "https://http2.mlstatic.com/D_NQ_NP_956628-MCO50309612379_062022-O.webp"
+    },
+    {
+        _id: 20,
+        title: "Collar para Gato",
+        price: 29003,
+        description: "Collar Feromonas Gato calmante",
+        category: "accesorios para perros",
+        image: "https://http2.mlstatic.com/D_NQ_NP_685583-MCO49772865715_042022-V.webp"
+    },
 ])
