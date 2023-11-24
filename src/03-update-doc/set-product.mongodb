@@ -1,0 +1,123 @@
+// set-product.mongodb
+
+use("pet_store")
+
+db.products.updateOne(
+    //query
+    {_id:1},
+    // change => operators
+    {
+        $set:{
+            title: 'Hueso Para Mascotas',
+            price: 15000,
+        }
+    }
+)
+
+db.products.updateOne(
+
+    {_id:2},
+
+    {
+        $set:{
+            title: 'Correa Para Caninos',
+            price: 7000,
+        }
+    }
+)
+
+db.products.updateOne(
+
+    {_id:3},
+
+    {
+        $set:{
+            title: 'Cama para caninos',
+            price: 30000,
+        }
+    }
+)
+
+db.products.updateOne(
+
+    {_id:4},
+
+    {
+        $set:{
+            title: 'Pelota para Caninos',
+            price: '15000',
+        }
+    }
+)
+
+db.products.updateOne(
+
+    {_id:5},
+
+    {
+        $set:{
+            title: 'Collar para Mascotas',
+            price: '45000',
+        }
+    }
+)
+
+db.products.updateOne(
+
+    {_id:6},
+
+    {
+        $set:{
+            title: 'Galletas Caninas',
+            price: '20000',
+        }
+    }
+)
+
+db.products.updateOne(
+
+    {_id:7},
+
+    {
+        $set:{
+            title: 'Sticks caninos ',
+            price: '12000',
+        }
+    }
+)
+
+db.products.updateOne(
+
+    {_id:8},
+
+    {
+        $set:{
+            title: 'Croquetas Ringo Premium ',
+            price: '145000',
+        }
+    }
+)
+
+db.products.updateOne(
+
+    {_id:9},
+
+    {
+        $set:{
+            title: 'Casa para Mascotas',
+            price: '78000',
+        }
+    }
+)
+
+db.products.updateOne(
+
+    {_id:10},
+
+    {
+        $set:{
+            title: 'Tazon para Caninos',
+            price: '25000',
+        }
+    }
+)
