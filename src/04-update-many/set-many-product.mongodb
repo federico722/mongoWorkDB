@@ -1,0 +1,24 @@
+// con esta instruccion a los producto 
+//con la categoria juguetes inverta un atributo 
+// llamado inventary en su valor true
+db.products.updateMany(
+    // query
+    { category: "accesorios para perros" },
+    // update - operators
+    {
+      $set: {
+        inventary: true
+      }
+    }
+ )
+
+ db.products.updateMany(
+    // query
+    { category: "comestibles" },
+    // update - operators
+    {
+      $set: {
+        inventary: true
+      }
+    }
+ )
